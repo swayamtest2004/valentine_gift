@@ -1,5 +1,11 @@
 {
+  "cleanUrls": true,
   "rewrites": [
+    { "source": "/login", "destination": "/index.html" },
+    { "source": "/letter", "destination": "/index.html" },
+    { "source": "/memories", "destination": "/index.html" },
+    { "source": "/spotify", "destination": "/index.html" },
+    { "source": "/ask-her", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
