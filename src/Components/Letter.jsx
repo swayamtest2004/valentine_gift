@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import letterPage from '/images/letter'
+import letterPage from '/images/letter.png'
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
