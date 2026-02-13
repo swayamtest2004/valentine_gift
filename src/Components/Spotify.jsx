@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Spotify = () => {
     const audioRef = useRef(null);
