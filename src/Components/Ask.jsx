@@ -63,11 +63,15 @@ useEffect(() => {
 
 
   return (
-    <div className="flex flex-col items-center justify-center relative z-10">
+    <motion.div
+    initial={{ y: 30, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+    transition={{ duration: 0.8, ease: "easeOut" }}
+    className="flex flex-col items-center justify-center relative z-10">
         <h3 className="text-3xl font-base ">इम्तिहान की घड़ी</h3>
         <h1 className="text-3xl font-bold love-font my-6">I have Something to ask You Babygirl</h1>
       <h1 className="text-6xl font-semibold text-rose-500 mt-3 love-font">Will you be my Valentine? 💌</h1>
-      <div className="mt-20">
+      <motion.div className="mt-20">
   {!showCountdown ? (
     <div className="space-x-4">
       <button
@@ -105,7 +109,7 @@ useEffect(() => {
       )}
     </div>
   )}
-</div>
+</motion.div>
 
 
       {/* Popup */}
@@ -147,7 +151,7 @@ useEffect(() => {
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 };
 
