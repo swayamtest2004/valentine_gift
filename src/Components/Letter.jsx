@@ -61,6 +61,8 @@ So Here's a small gift for you !!
                 </motion.div>
             </motion.section>
 
+            <Link to={"/memories"} className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
+
         </>
     )
 }
