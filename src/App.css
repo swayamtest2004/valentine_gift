@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary-color: #F5D2D2;
+  --love-font: "Edu NSW ACT Cursive", cursive;
+  --poppins-font: 'Poppins', sans-serif;
+}
+
+.pink-bg{
+  background-color: var(--primary-color);
+}
+.love-font{
+  font-family: var(--love-font);
+}
+.poppins-font{
+  font-family: var(--poppins-font);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* letter css */
+.mockup-wrap {
+  min-height: 100vh;
+  background: var(--primary-color); /* table / desk */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.letter-mockup {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+}
+
+/* the image itself */
+.letter-mockup img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* the handwritten text */
+.mockup-text {
+  position: absolute;
+  top: 18%;
+  left: 14%;
+  width: 72%;
+  max-height: 60%;   /* constrain height */
+  overflow-y: auto;  /* scroll inside */
+  font-family: "Dancing Script", cursive;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #2b2320;
+  white-space: pre-wrap;
+}
+.dancing-font{
+font-family: "Dancing Script", cursive;
+}
