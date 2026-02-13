@@ -103,7 +103,7 @@ const Spotify = () => {
 
                                 <audio
                                     ref={audioRef}
-                                    src="/src/assets/music/Samjho_Na_48KBPS.mp4"
+                                    src="/music/Samjho_Na_48KBPS.mp4"
                                 />
                             </div>
                         </motion.div>
