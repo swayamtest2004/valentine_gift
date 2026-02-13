@@ -132,6 +132,17 @@ const Spotify = () => {
                             प्यार करते हैं तुमसे, जीते-मरते हैं इश्क में तेरे
                         </span>
                     </motion.div>
+
+                     <motion.div
+                        className="mt-10 text-center "
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1, duration: 0.8 }}
+                    >
+                          <div className="mt-10">
+                            <Link to={"/ask-her"} className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
+                        </div>
+                    </motion.div>
                 </div>
             </motion.section>
         </>
