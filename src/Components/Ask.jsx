@@ -85,14 +85,14 @@ const Ask = () => {
 
             <div className="mt-20 space-x-4 flex justify-center">
               <button
-                className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition"
+                className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition love-font"
                 onClick={handleYesClick}
               >
                 Yes !!
               </button>
 
               <button
-                className="px-6 py-3 w-32 bg-red-600 text-white text-xl rounded-full hover:bg-red-400 shadow-lg hover:scale-105 transition"
+                className="px-6 py-3 w-32 bg-red-600 text-white text-xl rounded-full hover:bg-red-400 shadow-lg hover:scale-105 transition love-font"
                 onClick={handleNoClick}
               >
                 No

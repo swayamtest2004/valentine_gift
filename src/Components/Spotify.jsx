@@ -141,7 +141,7 @@ const Spotify = () => {
                         transition={{ delay: 1, duration: 0.8 }}
                     >
                           <div className="mt-10">
-                            <Link to={"/ask-her"} className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
+                            <Link to={"/ask-her"} className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition love-font">Click Me !</Link>
                         </div>
                     </motion.div>
                 </div>

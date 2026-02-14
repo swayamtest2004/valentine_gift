@@ -4,8 +4,8 @@ import pic1 from "/images/IMG_3502.JPG.jpeg";
 import pic2 from "/images/IMG_3496.JPG.jpeg";
 import pic3 from "/images/IMG_3501.JPG.jpeg";
 import pic4 from "/images/IMG_3497.JPG.jpeg";
-import pic5 from "/images/IMG_3505.JPG.jpeg";
-import pic6 from "/images/IMG_7795.png";
+import pic5 from "/images/her-img.jpg";
+import pic6 from "/images/my-img.jpg";
 import { Link } from "react-router-dom";
 
 const polaroids = [
@@ -13,8 +13,8 @@ const polaroids = [
     { img: pic2, text: "Forever Us 💌" },
     { img: pic3, text: "What'u Looki'n at 🤨" },
     { img: pic4, text: "My BabyGirl 😘" },
-    { img: pic5, text: "Best Day Ever 🌸" },
-    { img: pic6, text: "Forever Us 💌" },
+    { img: pic5, text: "Khamma Ghani Billo Rani 🙏" },
+    { img: pic6, text: "Me tumhara billota 😽" },
 ];
 
 const containerVariants = {
@@ -85,9 +85,9 @@ const Memories = () => {
           >
             <Link
               to={"/spotify"}
-              className="relative z-20 mt-20 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg"
+              className="relative z-20 mt-20 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg love-font"
             >
-              Click here
+              Something Different Here
             </Link>
           </motion.div>
         </div>
