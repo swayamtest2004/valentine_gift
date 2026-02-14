@@ -63,7 +63,7 @@ const Ask = () => {
       initial={{ y: 30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="flex flex-col items-center justify-center relative z-10"
+      className="flex flex-col items-center justify-center relative z-10 p-5"
     >
       <AnimatePresence mode="wait">
         {!sheSaidYes ? (
@@ -75,11 +75,11 @@ const Ask = () => {
             transition={{ duration: 0.5 }}
             className="text-center"
           >
-            <h3 className="text-3xl font-base">इम्तिहान की घड़ी</h3>
-            <h1 className="text-3xl font-bold love-font my-6">
+            <h3 className="text-xl md:text-3xl font-base">इम्तिहान की घड़ी</h3>
+            <h1 className="text-2xl md:text-3xl font-bold love-font my-12 md:my-6">
               I have Something to ask You Babygirl
             </h1>
-            <h1 className="text-6xl font-semibold text-rose-500 mt-3 love-font">
+            <h1 className="text-3xl md:text-6xl font-semibold text-rose-500 mt-3 love-font">
               Will you be my Valentine? 💌
             </h1>
 
@@ -123,7 +123,7 @@ const Ask = () => {
                     <h3 className="text-2xl mb-3 text-rose-400 font-semibold">
                       Time Remaining 💖
                     </h3>
-                    <div className="text-3xl font-bold space-x-3 text-white flex gap-5 justify-center">
+                    <div className="text-3xl font-bold space-x-3 text-white flex md:gap-5 gap-1 justify-center">
                       <div className="bg-white px-4 py-4 rounded-lg">
                         <span className="text-rose-500">{timeLeft.days}d</span>
                       </div>

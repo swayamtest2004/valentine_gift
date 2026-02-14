@@ -6,7 +6,7 @@ body{
   box-sizing: border-box;
 }
 :root{
-  --primary-color: #F5D2D2;
+  --primary-color: #f1bbbb;
   --love-font: "Edu NSW ACT Cursive", cursive;
   --poppins-font: 'Poppins', sans-serif;
 }

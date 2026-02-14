@@ -85,7 +85,7 @@ const Memories = () => {
           >
             <Link
               to={"/spotify"}
-              className="relative z-20 mt-20 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg love-font"
+              className="relative z-20 mt-20 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg love-font text-nowrap"
             >
               Something Different Here
             </Link>
