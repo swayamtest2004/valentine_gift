@@ -61,7 +61,7 @@ So Here's a small gift for you !!
 
 
                         <div className="mt-10 flex justify-center text-nowrap">
-                            <Link to={"/memories"} className="px-8 py-3  bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
+                            <Link to={"/memories"} className="px-8 py-3  bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition love-font">Want to see our pics ?</Link>
                         </div>
 
                 </motion.div>

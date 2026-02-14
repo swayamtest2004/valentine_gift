@@ -108,7 +108,7 @@ const Ask = () => {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h1 className="text-5xl font-bold text-rose-500 mb-10">
+            <h1 className="text-5xl font-bold text-rose-500 mb-10 love-font">
               She said Yes 💖
             </h1>
 

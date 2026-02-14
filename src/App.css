@@ -72,3 +72,11 @@ body{
 .dancing-font{
 font-family: "Dancing Script", cursive;
 }
+
+
+@media screen and (max-width: 600px) {
+  .mockup-text{
+    top: 10%;
+  max-height: 55%;
+  }
+}

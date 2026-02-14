@@ -54,7 +54,9 @@ const Login = ({ login }) => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                         <div className="flex justify-center"><img src="/images/login-img copy.jpeg" alt="" className="w-full shadow-xl rounded-lg" /></div>
                         <div>
+                            
                             <div className="login-container text-center">
+                                {error && <div className="bg-pink-100 rounded-lg p-3 mb-3"><p style={{ color: "red" }}>{error}</p></div>}
                                 <h2 className="love-font text-2xl md:text-[2rem]">Enter Our Special Number 💖</h2>
                                 <div className="mt-3"><span className="text-sm">[HINT - First Message DDMMYY]</span></div>
                                 <form onSubmit={handleSubmit} className="mt-5">
@@ -103,7 +105,7 @@ const Login = ({ login }) => {
 
                                     </div>
                                 </form>
-                                {error && <p style={{ color: "red" }}>{error}</p>}
+                                
                             </div>
                         </div>
                     </div>

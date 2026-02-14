@@ -44,7 +44,7 @@ const Main = () => {
 
         <motion.button
           onClick={() => navigate("/login")}
-          className="mt-6 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg hover:scale-105 transition"
+          className="mt-6 px-8 py-3 bg-white text-pink-600 rounded-full shadow-lg hover:scale-105 transition love-font"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.2, duration: 0.6 }}
