@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import letterPage from '/images/letter.png'
+import letterPage from '/images/letter2.png'
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -57,13 +57,15 @@ So Here's a small gift for you !!
                     />
                     <pre className="mockup-text no-scrollbar mt-5 text-lg md:text-xl text-pink-700">
                         {displayedText}
-
-                        <div className="mt-10">
-                            <Link to={"/memories"} className="px-8 py-3 w-32 bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
-                        </div>
                     </pre>
 
+
+                        <div className="mt-10 flex justify-center text-nowrap">
+                            <Link to={"/memories"} className="px-8 py-3  bg-white text-pink-600 text-xl rounded-full shadow-lg hover:scale-105 transition">Click Me !</Link>
+                        </div>
+
                 </motion.div>
+                
             </motion.section>
 
 

@@ -1,18 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
-import pic1 from "/images/IMG_3497.JPG.jpeg";
+import pic1 from "/images/IMG_3502.JPG.jpeg";
 import pic2 from "/images/IMG_3496.JPG.jpeg";
 import pic3 from "/images/IMG_3501.JPG.jpeg";
-import pic4 from "/images/IMG_3502.JPG.jpeg";
+import pic4 from "/images/IMG_3497.JPG.jpeg";
 import pic5 from "/images/IMG_3505.JPG.jpeg";
 import pic6 from "/images/IMG_7795.png";
 import { Link } from "react-router-dom";
 
 const polaroids = [
     { img: pic1, text: "You & Me ❤️" },
-    { img: pic2, text: "Best Day Ever 🌸" },
-    { img: pic3, text: "Forever Us 💌" },
-    { img: pic4, text: "You & Me ❤️" },
+    { img: pic2, text: "Forever Us 💌" },
+    { img: pic3, text: "What'u Looki'n at 🤨" },
+    { img: pic4, text: "My BabyGirl 😘" },
     { img: pic5, text: "Best Day Ever 🌸" },
     { img: pic6, text: "Forever Us 💌" },
 ];
